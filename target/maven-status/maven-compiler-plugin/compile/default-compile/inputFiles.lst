@@ -1,0 +1,11 @@
+/home/harry9461/Pulpit/java/Music_backend/src/main/java/music/player/backend/BackendApplication.java
+/home/harry9461/Pulpit/java/Music_backend/src/main/java/music/player/backend/controller/PersonController.java
+/home/harry9461/Pulpit/java/Music_backend/src/main/java/music/player/backend/controller/PlaylistController.java
+/home/harry9461/Pulpit/java/Music_backend/src/main/java/music/player/backend/controller/SongController.java
+/home/harry9461/Pulpit/java/Music_backend/src/main/java/music/player/backend/controller/TestController.java
+/home/harry9461/Pulpit/java/Music_backend/src/main/java/music/player/backend/model/Person.java
+/home/harry9461/Pulpit/java/Music_backend/src/main/java/music/player/backend/model/Playlist.java
+/home/harry9461/Pulpit/java/Music_backend/src/main/java/music/player/backend/model/Song.java
+/home/harry9461/Pulpit/java/Music_backend/src/main/java/music/player/backend/repository/PersonRepository.java
+/home/harry9461/Pulpit/java/Music_backend/src/main/java/music/player/backend/repository/PlaylistRepository.java
+/home/harry9461/Pulpit/java/Music_backend/src/main/java/music/player/backend/repository/SongRepository.java

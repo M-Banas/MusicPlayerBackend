@@ -1,0 +1,40 @@
+### TestController - hello
+GET http://localhost:8080/hello
+
+### PersonController - addPerson
+POST http://localhost:8080/person/add?username=janek
+
+### PersonController - deletePerson
+DELETE http://localhost:8080/person/delete/1
+
+### SongController - getSongs
+GET http://localhost:8080/songs
+
+### SongController - addSong
+POST http://localhost:8080/songs/add
+Content-Type: application/json
+
+{
+  "id": "song1",
+  "title": "Song Title",
+  "artist": "Artist Name",
+  "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+}
+
+### SongController - removeSong
+DELETE http://localhost:8080/songs/remove/song1
+
+### PlaylistController - createPlaylist
+POST http://localhost:8080/playlist/create?name=MojaPlaylista&ownerId=2
+
+### PlaylistController - removePlaylist
+DELETE http://localhost:8080/playlist/remove/1
+
+### PlaylistController - getPlaylist
+GET http://localhost:8080/playlist/1
+
+### PlaylistController - addSongToPlaylist
+POST http://localhost:8080/playlist/1/addSong?songId=song1
+
+### PlaylistController - removeSongFromPlaylist
+POST http://localhost:8080/playlist/1/removeSong?songId=song1
