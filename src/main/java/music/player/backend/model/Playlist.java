@@ -16,6 +16,7 @@ public class Playlist {
 
     @ManyToOne
     @JoinColumn(name = "owner_id")
+    @com.fasterxml.jackson.annotation.JsonBackReference
     public Person owner;
 
     public Playlist() {}

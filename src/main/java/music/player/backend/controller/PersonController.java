@@ -1,9 +1,12 @@
 package music.player.backend.controller;
 
 import music.player.backend.model.Person;
+import music.player.backend.model.Playlist;
 import music.player.backend.repository.PersonRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @RestController
 @RequestMapping("/person")
@@ -21,5 +24,11 @@ public class PersonController {
     @DeleteMapping("/delete/{id}")
     public void deletePerson(@PathVariable Long id) {
         personRepository.deleteById(id);
+    }
+
+    @GetMapping("/{id}/playlists")
+    public List<Playlist> getPersonPlaylists(@PathVariable Long id) {
+        Person person = personRepository.findById(id).orElseThrow();
+        return person.playlists;
     }
 }

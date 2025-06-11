@@ -15,7 +15,7 @@ POST http://localhost:8080/songs/add
 Content-Type: application/json
 
 {
-  "id": "song1",
+  "id": "1",
   "title": "Song Title",
   "artist": "Artist Name",
   "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
