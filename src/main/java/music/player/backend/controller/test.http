@@ -2,7 +2,7 @@
 GET http://localhost:8080/hello
 
 ### PersonController - addPerson
-POST http://localhost:8080/person/add?username=janek
+POST http://localhost:8080/person/add?username=kazek&password=test123
 
 ### PersonController - deletePerson
 DELETE http://localhost:8080/person/delete/1
@@ -34,7 +34,13 @@ DELETE http://localhost:8080/playlist/remove/1
 GET http://localhost:8080/playlist/1
 
 ### PlaylistController - addSongToPlaylist
-POST http://localhost:8080/playlist/1/addSong?songId=song1
+POST http://localhost:8080/playlist/1/addSong?songId=3
 
 ### PlaylistController - removeSongFromPlaylist
 POST http://localhost:8080/playlist/1/removeSong?songId=song1
+
+### PersonController - getPersonPlaylists
+GET http://localhost:8080/person/2/playlists
+
+### PersonController - login
+GET http://localhost:8080/person/login?username=kazek&password=test123

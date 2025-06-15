@@ -16,8 +16,10 @@ public class PersonController {
     private PersonRepository personRepository;
 
     @PostMapping("/add")
-    public Person addPerson(@RequestParam String username) {
-        Person person = new Person(username);
+    public Person addPerson(@RequestParam String username, @RequestParam String password) {
+        Person person = new Person();
+        person.username = username;
+        person.setPassword(password);
         return personRepository.save(person);
     }
 
@@ -30,5 +32,15 @@ public class PersonController {
     public List<Playlist> getPersonPlaylists(@PathVariable Long id) {
         Person person = personRepository.findById(id).orElseThrow();
         return person.playlists;
+    }
+
+    @GetMapping("/login")
+    public String login(@RequestParam String username, @RequestParam String password) {
+        Person person = personRepository.findByUsername(username);
+        if (person != null && person.getPasswordHash() != null && 
+            org.springframework.security.crypto.bcrypt.BCrypt.checkpw(password, person.getPasswordHash())) {
+            return person.getId(); // Login successful
+        }
+        return null; // Login failed
     }
 }
