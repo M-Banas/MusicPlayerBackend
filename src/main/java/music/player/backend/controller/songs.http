@@ -1,0 +1,221 @@
+### Add Songs to Database
+
+### Song 1
+POST http://localhost:8080/songs/add
+Content-Type: application/json
+
+{
+  "id": "1",
+  "title": "80s Synthwave Introduction",
+  "artist": "Alex Cohen",
+  "url": "https://freepd.com/music/80s%20Synthwave%20Introduction.mp3"
+}
+
+### Song 2
+POST http://localhost:8080/songs/add
+Content-Type: application/json
+
+{
+  "id": "2",
+  "title": "A Bit Of Hope",
+  "artist": "David Renda",
+  "url": "https://freepd.com/music/A%20Bit%20Of%20Hope.mp3"
+}
+
+### Song 3
+POST http://localhost:8080/songs/add
+Content-Type: application/json
+
+{
+  "id": "3",
+  "title": "Adventure",
+  "artist": "Alexander Nakarada",
+  "url": "https://freepd.com/music/Adventure.mp3"
+}
+
+### Song 4
+POST http://localhost:8080/songs/add
+Content-Type: application/json
+
+{
+  "id": "4",
+  "title": "Ambient Classical Guitar",
+  "artist": "Bryan Teoh",
+  "url": "https://freepd.com/music/Ambient%20Classical%20Guitar.mp3"
+}
+
+### Song 5
+POST http://localhost:8080/songs/add
+Content-Type: application/json
+
+{
+  "id": "5",
+  "title": "Ancient Rite",
+  "artist": "Kevin MacLeod",
+  "url": "https://freepd.com/music/Ancient%20Rite.mp3"
+}
+
+### Song 6
+POST http://localhost:8080/songs/add
+Content-Type: application/json
+
+{
+  "id": "6",
+  "title": "Ascending",
+  "artist": "Bryan Teoh",
+  "url": "https://freepd.com/music/Ascending.mp3"
+}
+
+### Song 7
+POST http://localhost:8080/songs/add
+Content-Type: application/json
+
+{
+  "id": "7",
+  "title": "Battle in the Winter",
+  "artist": "Rafael Krux",
+  "url": "https://freepd.com/music/Battle%20in%20the%20Winter.mp3"
+}
+
+### Song 8
+POST http://localhost:8080/songs/add
+Content-Type: application/json
+
+{
+  "id": "8",
+  "title": "Beautiful World",
+  "artist": "Rafael Krux",
+  "url": "https://freepd.com/music/Beautiful%20World.mp3"
+}
+
+### Song 9
+POST http://localhost:8080/songs/add
+Content-Type: application/json
+
+{
+  "id": "9",
+  "title": "Crazy Circus",
+  "artist": "Rafael Krux",
+  "url": "https://freepd.com/music/Crazy%20Circus.mp3"
+}
+
+### Song 10
+POST http://localhost:8080/songs/add
+Content-Type: application/json
+
+{
+  "id": "10",
+  "title": "Dancing with Fire",
+  "artist": "Alexander Nakarada",
+  "url": "https://freepd.com/music/Dancing%20with%20Fire.mp3"
+}
+
+### Song 11
+POST http://localhost:8080/songs/add
+Content-Type: application/json
+
+{
+  "id": "11",
+  "title": "Dawn",
+  "artist": "Rafael Krux",
+  "url": "https://freepd.com/music/Dawn.mp3"
+}
+
+### Song 12
+POST http://localhost:8080/songs/add
+Content-Type: application/json
+
+{
+  "id": "12",
+  "title": "Desert Fox",
+  "artist": "Bryan Teoh",
+  "url": "https://freepd.com/music/Desert%20Fox.mp3"
+}
+
+### Song 13
+POST http://localhost:8080/songs/add
+Content-Type: application/json
+
+{
+  "id": "13",
+  "title": "Dragon Quest",
+  "artist": "Rafael Krux",
+  "url": "https://freepd.com/music/Dragon%20Quest.mp3"
+}
+
+### Song 14
+POST http://localhost:8080/songs/add
+Content-Type: application/json
+
+{
+  "id": "14",
+  "title": "Epic Journey",
+  "artist": "Alexander Nakarada",
+  "url": "https://freepd.com/music/Epic%20Journey.mp3"
+}
+
+### Song 15
+POST http://localhost:8080/songs/add
+Content-Type: application/json
+
+{
+  "id": "15",
+  "title": "Forest Walk",
+  "artist": "Alexander Nakarada",
+  "url": "https://freepd.com/music/Forest%20Walk.mp3"
+}
+
+### Song 16
+POST http://localhost:8080/songs/add
+Content-Type: application/json
+
+{
+  "id": "16",
+  "title": "Happy Adventure",
+  "artist": "Rafael Krux",
+  "url": "https://freepd.com/music/Happy%20Adventure.mp3"
+}
+
+### Song 17
+POST http://localhost:8080/songs/add
+Content-Type: application/json
+
+{
+  "id": "17",
+  "title": "Medieval",
+  "artist": "Alexander Nakarada",
+  "url": "https://freepd.com/music/Medieval.mp3"
+}
+
+### Song 18
+POST http://localhost:8080/songs/add
+Content-Type: application/json
+
+{
+  "id": "18",
+  "title": "Morning Mood",
+  "artist": "Rafael Krux",
+  "url": "https://freepd.com/music/Morning%20Mood.mp3"
+}
+
+### Song 19
+POST http://localhost:8080/songs/add
+Content-Type: application/json
+
+{
+  "id": "19",
+  "title": "Relaxing Green Nature",
+  "artist": "Rafael Krux",
+  "url": "https://freepd.com/music/Relaxing%20Green%20Nature.mp3"
+}
+
+### Song 20
+POST http://localhost:8080/songs/add
+Content-Type: application/json
+
+{
+  "id": "20",
+  "title": "Soft Piano",
+  "artist": "Alexander Nakarada",
+  "url": "https://freepd.com/music/Soft%20Piano.mp3"
+}

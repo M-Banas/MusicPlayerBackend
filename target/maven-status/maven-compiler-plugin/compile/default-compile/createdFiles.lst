@@ -1,1 +1,11 @@
-music\player\backend\BackendApplication.class
+music/player/backend/controller/SongController.class
+music/player/backend/BackendApplication.class
+music/player/backend/model/Song.class
+music/player/backend/controller/PlaylistController.class
+music/player/backend/repository/PlaylistRepository.class
+music/player/backend/model/Person.class
+music/player/backend/controller/TestController.class
+music/player/backend/repository/SongRepository.class
+music/player/backend/repository/PersonRepository.class
+music/player/backend/controller/PersonController.class
+music/player/backend/model/Playlist.class
