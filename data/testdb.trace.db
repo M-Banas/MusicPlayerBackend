@@ -635,3 +635,7 @@ Caused by: org.h2.mvstore.MVStoreException: The file is locked: /home/harry9461/
 	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
 	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
 	... 142 more
+2025-06-20 00:18:37.807326+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Błąd składniowy w wyrażeniu SQL "DELETE [*]* PLAYLIST_SONGS"; oczekiwano "identifier"
+Syntax error in SQL statement "DELETE [*]* PLAYLIST_SONGS"; expected "identifier"; SQL statement:
+DELETE * PLAYLIST_SONGS [42001-232]

@@ -6,9 +6,9 @@ Content-Type: application/json
 
 {
   "id": "1",
-  "title": "80s Synthwave Introduction",
-  "artist": "Alex Cohen",
-  "url": "https://freepd.com/music/80s%20Synthwave%20Introduction.mp3"
+  "title": "Awkward Apocalyptic Pickup",
+  "artist": "Anonymous",
+  "url": "https://freepd.com/music/Awkward%20Apocalyptic%20Pickup.mp3"
 }
 
 ### Song 2
@@ -17,9 +17,9 @@ Content-Type: application/json
 
 {
   "id": "2",
-  "title": "A Bit Of Hope",
+  "title": "Ambush in Rattlesnake Gulch",
   "artist": "David Renda",
-  "url": "https://freepd.com/music/A%20Bit%20Of%20Hope.mp3"
+  "url": "https://freepd.com/music/Ambush%20in%20Rattlesnake%20Gulch.mp3"
 }
 
 ### Song 3
@@ -28,9 +28,9 @@ Content-Type: application/json
 
 {
   "id": "3",
-  "title": "Adventure",
-  "artist": "Alexander Nakarada",
-  "url": "https://freepd.com/music/Adventure.mp3"
+  "title": "Improv for Evil",
+  "artist": "Brian Boyko.",
+  "url": "https://freepd.com/music/Improv%20for%20Evil.mp3"
 }
 
 ### Song 4
@@ -41,7 +41,7 @@ Content-Type: application/json
   "id": "4",
   "title": "Ambient Classical Guitar",
   "artist": "Bryan Teoh",
-  "url": "https://freepd.com/music/Ambient%20Classical%20Guitar.mp3"
+  "url": "https://www.bensound.com/bensound-music/bensound-sunny.mp3"
 }
 
 ### Song 5
@@ -52,7 +52,7 @@ Content-Type: application/json
   "id": "5",
   "title": "Ancient Rite",
   "artist": "Kevin MacLeod",
-  "url": "https://freepd.com/music/Ancient%20Rite.mp3"
+  "url": "https://www.bensound.com/bensound-music/bensound-summer.mp3"
 }
 
 ### Song 6
@@ -63,7 +63,7 @@ Content-Type: application/json
   "id": "6",
   "title": "Ascending",
   "artist": "Bryan Teoh",
-  "url": "https://freepd.com/music/Ascending.mp3"
+  "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
 }
 
 ### Song 7
