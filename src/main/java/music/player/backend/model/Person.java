@@ -4,6 +4,8 @@ import jakarta.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.security.crypto.bcrypt.BCrypt;
+
 @Entity
 public class Person {
     @Id
@@ -14,20 +16,20 @@ public class Person {
 
     public String passwordHash;
 
-    @OneToMany(mappedBy = "owner")
+    @OneToMany(mappedBy = "owner")//powiazanie playlisty z ownerem
     @com.fasterxml.jackson.annotation.JsonManagedReference
-    public List<Playlist> playlists = new ArrayList<>(); // <-- inicjalizacja
+    public List<Playlist> playlists = new ArrayList<>(); 
 
     public Person() {}
 
     public Person(String username, String passwordHash) {
         this.username = username;
         this.passwordHash = passwordHash;
-        this.playlists = new ArrayList<>(); // <-- inicjalizacja
+        this.playlists = new ArrayList<>(); 
     }
 
     public void setPassword(String password) {
-        this.passwordHash = org.springframework.security.crypto.bcrypt.BCrypt.hashpw(password, org.springframework.security.crypto.bcrypt.BCrypt.gensalt());
+        this.passwordHash = BCrypt.hashpw(password, BCrypt.gensalt());
     }
     public String getPasswordHash() {
         return passwordHash;

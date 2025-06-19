@@ -26,4 +26,8 @@ public class Playlist {
         this.songs = songs;
         this.owner = owner;
     }
+
+    public String getId() {
+        return id;
+    }
 }

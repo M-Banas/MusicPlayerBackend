@@ -4,6 +4,7 @@ import music.player.backend.model.Person;
 import music.player.backend.model.Playlist;
 import music.player.backend.repository.PersonRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.bcrypt.BCrypt;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -37,10 +38,9 @@ public class PersonController {
     @GetMapping("/login")
     public String login(@RequestParam String username, @RequestParam String password) {
         Person person = personRepository.findByUsername(username);
-        if (person != null && person.getPasswordHash() != null && 
-            org.springframework.security.crypto.bcrypt.BCrypt.checkpw(password, person.getPasswordHash())) {
-            return person.getId(); // Login successful
+        if (person != null && person.getPasswordHash() != null && BCrypt.checkpw(password, person.getPasswordHash())) {
+            return person.getId(); 
         }
-        return null; // Login failed
+        return null; 
     }
 }

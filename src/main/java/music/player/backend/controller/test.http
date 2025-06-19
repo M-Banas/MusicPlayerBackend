@@ -1,6 +1,3 @@
-### TestController - hello
-GET http://localhost:8080/hello
-
 ### PersonController - addPerson
 POST http://localhost:8080/person/add?username=kazek&password=test123
 
