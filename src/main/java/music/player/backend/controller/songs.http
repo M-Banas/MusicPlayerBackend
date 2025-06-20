@@ -72,9 +72,9 @@ Content-Type: application/json
 
 {
   "id": "7",
-  "title": "Battle in the Winter",
-  "artist": "Rafael Krux",
-  "url": "https://freepd.com/music/Battle%20in%20the%20Winter.mp3"
+  "title": "Battle Ready",
+  "artist": "Bryan Teoh",
+  "url": "https://freepd.com/music/Battle%20Ready.mp3"
 }
 
 ### Song 8
@@ -83,9 +83,9 @@ Content-Type: application/json
 
 {
   "id": "8",
-  "title": "Beautiful World",
-  "artist": "Rafael Krux",
-  "url": "https://freepd.com/music/Beautiful%20World.mp3"
+  "title": "Think About It",
+  "artist": "Bryan Teoh",
+  "url": "https://freepd.com/music/Think%20About%20It.mp3"
 }
 
 ### Song 9
@@ -94,9 +94,9 @@ Content-Type: application/json
 
 {
   "id": "9",
-  "title": "Crazy Circus",
-  "artist": "Rafael Krux",
-  "url": "https://freepd.com/music/Crazy%20Circus.mp3"
+  "title": "Release the Hybrids",
+  "artist": "Bryan Teoh",
+  "url": "https://freepd.com/music/Release%20the%20Hybrids.mp3"
 }
 
 ### Song 10
@@ -105,9 +105,9 @@ Content-Type: application/json
 
 {
   "id": "10",
-  "title": "Dancing with Fire",
-  "artist": "Alexander Nakarada",
-  "url": "https://freepd.com/music/Dancing%20with%20Fire.mp3"
+  "title": "Honor Bound",
+  "artist": "Bryan Teoh",
+  "url": "https://freepd.com/music/Honor%20Bound.mp3"
 }
 
 ### Song 11
@@ -116,9 +116,9 @@ Content-Type: application/json
 
 {
   "id": "11",
-  "title": "Dawn",
-  "artist": "Rafael Krux",
-  "url": "https://freepd.com/music/Dawn.mp3"
+  "title": "The Ice Giants",
+  "artist": "Bryan Teoh",
+  "url": "https://freepd.com/music/The%20Ice%20Giants.mp3"
 }
 
 ### Song 12
@@ -138,9 +138,9 @@ Content-Type: application/json
 
 {
   "id": "13",
-  "title": "Dragon Quest",
-  "artist": "Rafael Krux",
-  "url": "https://freepd.com/music/Dragon%20Quest.mp3"
+  "title": "Go On Without Me",
+  "artist": "Bryan Teoh",
+  "url": "https://freepd.com/music/Go%20On%20Without%20Me.mp3"
 }
 
 ### Song 14
@@ -149,9 +149,9 @@ Content-Type: application/json
 
 {
   "id": "14",
-  "title": "Epic Journey",
-  "artist": "Alexander Nakarada",
-  "url": "https://freepd.com/music/Epic%20Journey.mp3"
+  "title": "Epic Blockbuster 2",
+  "artist": "Anonymous",
+  "url": "https://freepd.com/music/Epic%20Blockbuster%202.mp3"
 }
 
 ### Song 15
@@ -160,9 +160,9 @@ Content-Type: application/json
 
 {
   "id": "15",
-  "title": "Forest Walk",
-  "artist": "Alexander Nakarada",
-  "url": "https://freepd.com/music/Forest%20Walk.mp3"
+  "title": "3 am West End",
+  "artist": "Anonymous",
+  "url": "https://freepd.com/music/3%20am%20West%20End.mp3"
 }
 
 ### Song 16
@@ -171,9 +171,9 @@ Content-Type: application/json
 
 {
   "id": "16",
-  "title": "Happy Adventure",
-  "artist": "Rafael Krux",
-  "url": "https://freepd.com/music/Happy%20Adventure.mp3"
+  "title": "Adventure",
+  "artist": "Anonymous",
+  "url": "https://freepd.com/music/Adventure.mp3"
 }
 
 ### Song 17
@@ -182,9 +182,9 @@ Content-Type: application/json
 
 {
   "id": "17",
-  "title": "Medieval",
-  "artist": "Alexander Nakarada",
-  "url": "https://freepd.com/music/Medieval.mp3"
+  "title": "Alien Invasion",
+  "artist": "Anonymous",
+  "url": "https://freepd.com/music/Alien%20Invasion.mp3"
 }
 
 ### Song 18
@@ -193,9 +193,9 @@ Content-Type: application/json
 
 {
   "id": "18",
-  "title": "Morning Mood",
-  "artist": "Rafael Krux",
-  "url": "https://freepd.com/music/Morning%20Mood.mp3"
+  "title": "A Waltz For Naseem",
+  "artist": "Anonymous",
+  "url": "https://freepd.com/music/A%20Waltz%20For%20Naseem.mp3"
 }
 
 ### Song 19
@@ -204,9 +204,9 @@ Content-Type: application/json
 
 {
   "id": "19",
-  "title": "Relaxing Green Nature",
-  "artist": "Rafael Krux",
-  "url": "https://freepd.com/music/Relaxing%20Green%20Nature.mp3"
+  "title": "Action Strike",
+  "artist": "Anonymous",
+  "url": "https://freepd.com/music/Action%20Strike.mp3"
 }
 
 ### Song 20
@@ -215,7 +215,118 @@ Content-Type: application/json
 
 {
   "id": "20",
-  "title": "Soft Piano",
-  "artist": "Alexander Nakarada",
-  "url": "https://freepd.com/music/Soft%20Piano.mp3"
+  "title": "A Good Bass for Gambling",
+  "artist": "Anonymous",
+  "url": "https://freepd.com/music/A%20Good%20Bass%20for%20Gambling.mp3"
 }
+
+### Song 21
+POST http://localhost:8080/songs/add
+Content-Type: application/json
+
+{
+  "id": "21",
+  "title": "A Surprising Encounter",
+  "artist": "Anonymous",
+  "url": "https://freepd.com/music/A%20Surprising%20Encounter.mp3"
+}
+
+### Song 22
+POST http://localhost:8080/songs/add
+Content-Type: application/json
+
+{
+  "id": "22",
+  "title": "A Very Brady Special",
+  "artist": "Anonymous",
+  "url": "https://freepd.com/music/A%20Very%20Brady%20Special.mp3"
+}
+
+### Song 23
+POST http://localhost:8080/songs/add
+Content-Type: application/json
+
+{
+  "id": "23",
+  "title": "Abstract Anxiety",
+  "artist": "Anonymous",
+  "url": "https://freepd.com/music/Abstract%20Anxiety.mp3"
+}
+
+### Song 24
+POST http://localhost:8080/songs/add
+Content-Type: application/json
+
+{
+  "id": "24",
+  "title": "Adding the Sun",
+  "artist": "Anonymous",
+  "url": "https://freepd.com/music/Adding%20the%20Sun.mp3"
+}
+
+### Song 25
+POST http://localhost:8080/songs/add
+Content-Type: application/json
+
+{
+  "id": "25",
+  "title": "Modern Island Jam",
+  "artist": "Kevin MacLeod",
+  "url": "https://freepd.com/music/Modern%20Island%20Jam.mp3"
+}
+
+### Song 26
+POST http://localhost:8080/songs/add
+Content-Type: application/json
+
+{
+  "id": "26",
+  "title": "Palm and Soul",
+  "artist": "Kevin MacLeod",
+  "url": "https://freepd.com/music/Palm%20and%20Soul.mp3"
+}
+
+### Song 27
+POST http://localhost:8080/songs/add
+Content-Type: application/json
+
+{
+  "id": "27",
+  "title": "Coy Koi",
+  "artist": "Anonymous",
+  "url": "https://freepd.com/music/Coy%20Koi.mp3"
+}
+
+### Song 28
+POST http://localhost:8080/songs/add
+Content-Type: application/json
+
+{
+  "id": "28",
+  "title": "Bavarian Seascape",
+  "artist": "Anonymous",
+  "url": "https://freepd.com/music/Bavarian%20Seascape.mp3"
+}
+
+### Song 29
+POST http://localhost:8080/songs/add
+Content-Type: application/json
+
+{
+  "id": "29",
+  "title": "Aquatic City Vanished",
+  "artist": "Bryan Teoh",
+  "url": "https://freepd.com/music/Aquatic%20City%20Vanished.mp3"
+}
+
+### Song 30
+POST http://localhost:8080/songs/add
+Content-Type: application/json
+
+{
+  "id": "30",
+  "title": "Forest Frolic Loop",
+  "artist": "Kevin MacLeod",
+  "url": "https://freepd.com/music/Forest%20Frolic%20Loop.mp3"
+}
+
