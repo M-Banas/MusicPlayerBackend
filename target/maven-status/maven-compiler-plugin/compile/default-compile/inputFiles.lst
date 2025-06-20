@@ -1,10 +1,10 @@
-/home/harry9461/Pulpit/java/Music_backend/src/main/java/music/player/backend/BackendApplication.java
-/home/harry9461/Pulpit/java/Music_backend/src/main/java/music/player/backend/controller/PersonController.java
-/home/harry9461/Pulpit/java/Music_backend/src/main/java/music/player/backend/controller/PlaylistController.java
-/home/harry9461/Pulpit/java/Music_backend/src/main/java/music/player/backend/controller/SongController.java
-/home/harry9461/Pulpit/java/Music_backend/src/main/java/music/player/backend/model/Person.java
-/home/harry9461/Pulpit/java/Music_backend/src/main/java/music/player/backend/model/Playlist.java
-/home/harry9461/Pulpit/java/Music_backend/src/main/java/music/player/backend/model/Song.java
-/home/harry9461/Pulpit/java/Music_backend/src/main/java/music/player/backend/repository/PersonRepository.java
-/home/harry9461/Pulpit/java/Music_backend/src/main/java/music/player/backend/repository/PlaylistRepository.java
-/home/harry9461/Pulpit/java/Music_backend/src/main/java/music/player/backend/repository/SongRepository.java
+C:\Users\Beata\Desktop\Odtwarzacz muzyki PROJEKT JAVA\MusicPlayerBackend\src\main\java\music\player\backend\BackendApplication.java
+C:\Users\Beata\Desktop\Odtwarzacz muzyki PROJEKT JAVA\MusicPlayerBackend\src\main\java\music\player\backend\controller\PersonController.java
+C:\Users\Beata\Desktop\Odtwarzacz muzyki PROJEKT JAVA\MusicPlayerBackend\src\main\java\music\player\backend\controller\PlaylistController.java
+C:\Users\Beata\Desktop\Odtwarzacz muzyki PROJEKT JAVA\MusicPlayerBackend\src\main\java\music\player\backend\controller\SongController.java
+C:\Users\Beata\Desktop\Odtwarzacz muzyki PROJEKT JAVA\MusicPlayerBackend\src\main\java\music\player\backend\model\Person.java
+C:\Users\Beata\Desktop\Odtwarzacz muzyki PROJEKT JAVA\MusicPlayerBackend\src\main\java\music\player\backend\model\Playlist.java
+C:\Users\Beata\Desktop\Odtwarzacz muzyki PROJEKT JAVA\MusicPlayerBackend\src\main\java\music\player\backend\model\Song.java
+C:\Users\Beata\Desktop\Odtwarzacz muzyki PROJEKT JAVA\MusicPlayerBackend\src\main\java\music\player\backend\repository\PersonRepository.java
+C:\Users\Beata\Desktop\Odtwarzacz muzyki PROJEKT JAVA\MusicPlayerBackend\src\main\java\music\player\backend\repository\PlaylistRepository.java
+C:\Users\Beata\Desktop\Odtwarzacz muzyki PROJEKT JAVA\MusicPlayerBackend\src\main\java\music\player\backend\repository\SongRepository.java
