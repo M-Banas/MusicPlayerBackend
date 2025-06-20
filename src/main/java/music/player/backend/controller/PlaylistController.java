@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.*;
 
 /**
- * Kontroler REST do zarządzania playlistami.
- * Pozwala na tworzenie, usuwanie, pobieranie i edycję playlist oraz zarządzanie piosenkami w playlistach.
+ * Kontroler REST do zarządzania playlistami
+ * Pozwala na tworzenie, usuwanie, pobieranie i edycję playlist oraz zarządzanie piosenkami w playlistach
  */
 @RestController
 @RequestMapping("/playlist")
@@ -31,7 +31,7 @@ public class PlaylistController {
     private PersonRepository personRepository;
 
     /**
-     * Tworzy nową playlistę dla użytkownika.
+     * Tworzy nową playlistę dla użytkownika
      * @param name nazwa playlisty
      * @param ownerId id właściciela
      * @return utworzona playlista
@@ -44,7 +44,7 @@ public class PlaylistController {
     }
 
     /**
-     * Usuwa playlistę po ID.
+     * Usuwa playlistę po ID
      * @param id identyfikator playlisty
      */
     @DeleteMapping("/remove/{id}")
@@ -53,7 +53,7 @@ public class PlaylistController {
     }
 
     /**
-     * Pobiera playlistę po ID.
+     * Pobiera playlistę po ID
      * @param id identyfikator playlisty
      * @return playlista lub null jeśli nie istnieje
      */
@@ -63,7 +63,7 @@ public class PlaylistController {
     }
 
     /**
-     * Dodaje piosenkę do playlisty.
+     * Dodaje piosenkę do playlisty
      * @param playlistId id playlisty
      * @param songId id piosenki
      * @return zaktualizowana playlista
@@ -77,7 +77,7 @@ public class PlaylistController {
     }
 
     /**
-     * Usuwa piosenkę z playlisty.
+     * Usuwa piosenkę z playlisty
      * @param playlistId id playlisty
      * @param songId id piosenki
      * @return zaktualizowana playlista

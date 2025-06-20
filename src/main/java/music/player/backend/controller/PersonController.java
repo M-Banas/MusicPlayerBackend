@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 /**
- * Kontroler REST do zarządzania użytkownikami (Person).
- * Pozwala na rejestrację, usuwanie, pobieranie playlist oraz logowanie użytkowników.
+ * Kontroler REST do zarządzania użytkownikami (Person)
+ * Pozwala na rejestrację, usuwanie, pobieranie playlist oraz logowanie użytkowników
  */
 @RestController
 @RequestMapping("/person")
@@ -21,7 +21,7 @@ public class PersonController {
     private PersonRepository personRepository;
 
     /**
-     * Dodaje nowego użytkownika.
+     * Dodaje nowego użytkownika
      * @param username unikalny nick użytkownika
      * @param password hasło użytkownika
      * @return utworzony użytkownik
@@ -39,7 +39,7 @@ public class PersonController {
     }
 
     /**
-     * Usuwa użytkownika po ID.
+     * Usuwa użytkownika po ID
      * @param id identyfikator użytkownika
      */
     @DeleteMapping("/delete/{id}")
@@ -48,7 +48,7 @@ public class PersonController {
     }
 
     /**
-     * Zwraca playlisty danego użytkownika.
+     * Zwraca playlisty danego użytkownika
      * @param id identyfikator użytkownika
      * @return lista playlist użytkownika
      */
@@ -59,7 +59,7 @@ public class PersonController {
     }
 
     /**
-     * Loguje użytkownika na podstawie loginu i hasła.
+     * Loguje użytkownika na podstawie loginu i hasła
      * @param username nick użytkownika
      * @param password hasło użytkownika
      * @return id użytkownika jeśli logowanie się powiodło, null w przeciwnym razie

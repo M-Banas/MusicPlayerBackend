@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 /**
- * Kontroler REST do zarządzania piosenkami.
- * Pozwala na dodawanie, usuwanie i pobieranie piosenek.
+ * Kontroler REST do zarządzania piosenkami
+ * Pozwala na dodawanie, usuwanie i pobieranie piosenek
  */
 @RestController
 @RequestMapping("/songs")
@@ -19,7 +19,7 @@ public class SongController {
     private SongRepository songRepository;
 
     /**
-     * Pobiera wszystkie piosenki.
+     * Pobiera wszystkie piosenki
      * @return lista wszystkich piosenek
      */
     @GetMapping
@@ -28,7 +28,7 @@ public class SongController {
     }
 
     /**
-     * Dodaje nową piosenkę.
+     * Dodaje nową piosenkę
      * @param song piosenka w formacie JSON
      * @return dodana piosenka
      */
@@ -38,7 +38,7 @@ public class SongController {
     }
 
     /**
-     * Usuwa piosenkę po ID.
+     * Usuwa piosenkę po ID
      * @param id identyfikator piosenki
      */
     @DeleteMapping("/remove/{id}")

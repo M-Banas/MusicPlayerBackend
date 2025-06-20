@@ -5,43 +5,43 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Encja reprezentująca użytkownika aplikacji muzycznej.!
+ * Encja reprezentująca użytkownika aplikacji muzycznej
  * Użytkownik może posiadać wiele playlist.
  */
 @Entity
 public class Person {
     /**
-     * Unikalny identyfikator użytkownika (UUID jako String).
+     * Unikalny identyfikator użytkownika (UUID jako String)
      */
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     public String id;
 
     /**
-     * Unikalny nick użytkownika.
+     * Unikalny nick użytkownika
      */
     @Column(unique = true)
     public String username;
 
     /**
-     * Hash hasła użytkownika (BCrypt).
+     * Hash hasła użytkownika (BCrypt)
      */
     public String passwordHash;
 
     /**
-     * Lista playlist należących do użytkownika.
+     * Lista playlist należących do użytkownika
      */
     @OneToMany(mappedBy = "owner")
     @com.fasterxml.jackson.annotation.JsonManagedReference
     public List<Playlist> playlists = new ArrayList<>();
 
     /**
-     * Konstruktor domyślny.
+     * Konstruktor domyślny
      */
     public Person() {}
 
     /**
-     * Konstruktor z parametrami.
+     * Konstruktor z parametrami
      * @param username nick
      * @param passwordHash hash hasła
      */
@@ -52,7 +52,7 @@ public class Person {
     }
 
     /**
-     * Ustawia hash hasła na podstawie podanego hasła.
+     * Ustawia hash hasła na podstawie podanego hasła
      * @param password hasło w czystym tekście
      */
     public void setPassword(String password) {
@@ -60,7 +60,7 @@ public class Person {
     }
 
     /**
-     * Zwraca hash hasła.
+     * Zwraca hash hasła
      * @return hash hasła
      */
     public String getPasswordHash() {
@@ -68,7 +68,7 @@ public class Person {
     }
 
     /**
-     * Zwraca id użytkownika.
+     * Zwraca id użytkownika
      * @return id
      */
     public String getId() {
