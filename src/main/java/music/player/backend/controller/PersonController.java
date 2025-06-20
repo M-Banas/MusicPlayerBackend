@@ -18,6 +18,9 @@ public class PersonController {
 
     @PostMapping("/add")
     public Person addPerson(@RequestParam String username, @RequestParam String password) {
+        if (personRepository.findByUsername(username) != null) {
+            throw new RuntimeException("Username already exists");
+        }
         Person person = new Person();
         person.username = username;
         person.setPassword(password);
